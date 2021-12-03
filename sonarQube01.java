@@ -1,6 +1,6 @@
 
 public class sonarQube01 {
-    int addHeader(int intToAdd, int x, int y){
-        return int.format("Added Header %s %d %d", intToAdd, x, y);
+    String addHeader(String stringToAdd, int x, int y){
+        return String.format("Added Header %d %d %d", stringToAdd, x, y);
     }
 }
